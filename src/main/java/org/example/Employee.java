@@ -10,4 +10,10 @@ public class Employee {
     public String getName(){
         return name;
     }
+
+    public Employee(int empId, String name, int getEmpId) {
+        this.empId = empId;
+        this.name = name;
+        this.getEmpId = getEmpId;
+    }
 }
